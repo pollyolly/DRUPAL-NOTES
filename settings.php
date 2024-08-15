@@ -894,8 +894,8 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 # }
 $databases['default']['default'] = array (
   'database' => 'drupal_10_ecommerce',
-  'username' => 'drupalecomm',
-  'password' => 'OX24ErnVt1jC',
+  'username' => '',
+  'password' => '',
   'prefix' => '',
   'host' => 'localhost',
   'port' => '3306',
