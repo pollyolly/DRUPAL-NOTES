@@ -1,6 +1,6 @@
-### DRUPAL-NOTES
+## DRUPAL-NOTES
 
-### Nginx
+### Drupal Nginx
 ```nginx
 server {
     gzip on;
@@ -105,5 +105,10 @@ server {
 
 }
 ```
-### Drupal Patch
+### Drupal Security
+```
+```
+### Drupal Security Scanner
+[Droopescan](https://github.com/SamJoan/droopescan)
+### Drupal Patching
 [Patching in Drupal](https://youtu.be/dHnqYpqiTfs?si=KipA6pTB8JbOxz4R)
