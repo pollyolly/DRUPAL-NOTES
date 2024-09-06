@@ -9,12 +9,6 @@ server {
 	#server_name iwebitechnology.xyz *.iwebitechnology.xyz;
         return 301 https://drupal.iwebitechnology.xyz$request_uri;
 }
-server {
-        listen 443;
-        server_name drupal.iwebitechnology.xyz *.drupal.iwebitechnology.xyz;
-	#server_name iwebitechnology.xyz *.iwebitechnology.xyz;
-        return 301 https://drupal.iwebitechnology.xyz$request_uri;
-}
 ```
 drupal_10_ecommerce
 ```nginx
