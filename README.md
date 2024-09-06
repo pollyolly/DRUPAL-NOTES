@@ -1,20 +1,28 @@
 ## DRUPAL-NOTES
 
 ### Drupal Nginx
+default
+```nginx
+server {
+        listen 80;
+        server_name drupal.iwebitechnology.xyz *.drupal.iwebitechnology.xyz;
+	#server_name iwebitechnology.xyz *.iwebitechnology.xyz;
+        return 301 https://drupal.iwebitechnology.xyz$request_uri;
+}
+server {
+        listen 443;
+        server_name drupal.iwebitechnology.xyz *.drupal.iwebitechnology.xyz;
+	#server_name iwebitechnology.xyz *.iwebitechnology.xyz;
+        return 301 https://drupal.iwebitechnology.xyz$request_uri;
+}
+```
+drupal_10_ecommerce
 ```nginx
 server {
     gzip on;
     gzip_types      text/plain application/xml;
     gzip_proxied    no-cache no-store private expired auth;
     gzip_min_length 1000;
-}
-server {
-	listen 80;
-	return 301 https://drupal.iwebitechnology.xyz$request_uri;
-}
-server {
-	listen 443;
-	return 301 https://drupal.iwebitechnology.xyz$request_uri;
 }
 server {
 	listen 443 ssl;
