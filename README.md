@@ -1,7 +1,9 @@
 ## DRUPAL-NOTES
 ### Composer Install
 
-[Composer Install](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-22-04)
+[Composer Install](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-22-04) or
+
+[Composer Download](https://getcomposer.org/download/)
 
 ### Drupal Nginx
 default
