@@ -33,6 +33,10 @@ $drush cache:rebuild
 ```
 https://drupal.iwebitechnology.xyz/update.php
 ```
+### Composer Install  Module
+```
+$composer require drupal/admin_toolbar
+```
 ### Drush Install
 [Drush Install](https://www.drush.org/13.x/install/) or 
 ```
