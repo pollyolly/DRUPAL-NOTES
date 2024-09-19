@@ -22,23 +22,23 @@ $composer install
 ```
 ### Composer Drupal Update
 Show recommended updates 
-```
+```vim
 $composer show drupal/core-recommended
 ```
 Check available updates
-```
+```vim
 $composer outdated 'drupal/*'
 ```
 Update drupal/core-recommended codes with dependencies
-```
+```vim
 $composer update drupal/core 'drupal/core-*' --with-all-dependencies 
 ```
 Update drupal/core code only
-```
+```vim
 $composer update drupal/core --with-all-dependencies 
 ```
 Update database after installation
-```
+```vim
 $drush updatedb
 $drush cache:rebuild
 ```
@@ -46,12 +46,12 @@ $drush cache:rebuild
 https://drupal.iwebitechnology.xyz/update.php
 ```
 ### Composer Install  Drupal Module
-```
+```vim
 $composer require drupal/admin_toolbar
 ```
 ### Drush Installation
 [Drush Install](https://www.drush.org/13.x/install/) or 
-```
+```vim
 # local
 $composer require drush/drush
 $composer remove drush/drush
@@ -60,7 +60,7 @@ $composer global require drush/drush
 $composer global remove drush/drush
 ```
 Installation location
-```
+```vim
 # local
 $cd drupal-folder
 $./vendor/bin/drush --version
@@ -68,7 +68,7 @@ $./vendor/bin/drush --version
 /root/.config/composer/vendor/bin/drush --version
 ```
 Path
-```
+```vim
 # .bashrc
 # global drush path
 export PATH="$HOME/.config/composer/vendor/bin:$PATH"
