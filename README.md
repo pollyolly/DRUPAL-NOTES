@@ -49,24 +49,31 @@ https://drupal.iwebitechnology.xyz/update.php
 ```
 $composer require drupal/admin_toolbar
 ```
-### Drush Install
+### Drush Installation
 [Drush Install](https://www.drush.org/13.x/install/) or 
 ```
 # local
 $composer require drush/drush
+$composer remove drush/drush
 # global
 $composer global require drush/drush
+$composer global remove drush/drush
 ```
 Installation location
-
-local
 ```
-$cd project-folder
+# local
+$cd drupal-folder
 $./vendor/bin/drush --version
-```
-global
-```
+#global
 /root/.config/composer/vendor/bin/drush --version
+```
+Path
+```
+# .bashrc
+export PATH="$HOME/.config/composer/vendor/bin:$PATH"
+
+# reload .bashrc
+$source ~/.bashrc
 ```
 ### Drupal Nginx
 default
