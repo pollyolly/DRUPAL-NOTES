@@ -9,11 +9,17 @@
 [Composer Download](https://getcomposer.org/download/)
 
 Fix composer compatiblity issue
-```
+```vim
 $composer self-update
 $composer global update
 ```
-
+or
+```vim
+# Delete composer.json and Copy new drupal 10 composer.json then Reinstall
+$rm -r composer.json
+$cp -r fresh_drupal_10/composer.json composer.json
+$composer install
+```
 ### Composer Drupal Update
 Show recommended updates 
 ```
