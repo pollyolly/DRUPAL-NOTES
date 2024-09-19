@@ -31,7 +31,7 @@ Update drupal/core code only
 ```
 $composer update drupal/core --with-all-dependencies 
 ```
-Update database
+Update database after installation
 ```
 $drush updatedb
 $drush cache:rebuild
