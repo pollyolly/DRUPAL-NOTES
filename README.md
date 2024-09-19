@@ -30,6 +30,9 @@ Update database
 $drush updatedb
 $drush cache:rebuild
 ```
+```
+https://drupal.iwebitechnology.xyz/update.php
+```
 ### Drush Install
 [Drush Install](https://www.drush.org/13.x/install/) or 
 ```
