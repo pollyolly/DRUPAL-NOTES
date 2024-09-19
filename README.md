@@ -79,6 +79,11 @@ export PATH="$HOME/.config/composer/vendor/drush/drush:$PATH"
 # reload .bashrc
 $source ~/.bashrc
 ```
+If not working use Local for drush commands. Error: "[preflight] Package "drupal/core" is not installed"
+```
+./vendor/bin/drush updatedb
+./vendor/bin/drush cache:rebuild
+```
 ### Drupal Nginx
 default
 ```nginx
