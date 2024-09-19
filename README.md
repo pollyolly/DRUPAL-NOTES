@@ -64,7 +64,7 @@ Installation location
 # local
 $cd drupal-folder
 $./vendor/bin/drush --version
-#global
+# global
 /root/.config/composer/vendor/bin/drush --version
 ```
 Path
