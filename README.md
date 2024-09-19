@@ -70,6 +70,7 @@ $./vendor/bin/drush --version
 Path
 ```
 # .bashrc
+# global drush path
 export PATH="$HOME/.config/composer/vendor/bin:$PATH"
 
 # reload .bashrc
