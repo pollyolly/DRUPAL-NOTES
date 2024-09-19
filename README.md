@@ -8,6 +8,12 @@
 
 [Composer Download](https://getcomposer.org/download/)
 
+Fix composer compatiblity issue
+```
+$composer self-update
+$composer global update
+```
+
 ### Composer Drupal Update
 Show recommended updates 
 ```
@@ -33,7 +39,7 @@ $drush cache:rebuild
 ```
 https://drupal.iwebitechnology.xyz/update.php
 ```
-### Composer Install  Module
+### Composer Install  Drupal Module
 ```
 $composer require drupal/admin_toolbar
 ```
