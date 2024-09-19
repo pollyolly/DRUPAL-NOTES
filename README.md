@@ -74,6 +74,7 @@ Path
 # .bashrc
 # global drush path
 export PATH="$HOME/.config/composer/vendor/bin:$PATH"
+# export PATH="$HOME/.config/composer/vendor/drush/drush:$PATH"
 
 # reload .bashrc
 $source ~/.bashrc
@@ -190,3 +191,5 @@ server {
 [Droopescan](https://github.com/SamJoan/droopescan)
 ### Drupal Patching
 [Patching in Drupal](https://youtu.be/dHnqYpqiTfs?si=KipA6pTB8JbOxz4R)
+### References
+[[preflight] Package "drupal/core" is not installed](https://www.drupal.org/forum/support/post-installation/2023-12-30/drush-preflight-package-drupalcore-is-not-installed)
