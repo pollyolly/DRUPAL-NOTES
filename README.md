@@ -52,9 +52,22 @@ $composer require drupal/admin_toolbar
 ### Drush Install
 [Drush Install](https://www.drush.org/13.x/install/) or 
 ```
+# local
 $composer require drush/drush
+# global
+$composer global require drush/drush
 ```
+Installation location
 
+local
+```
+$cd project-folder
+$./vendor/bin/drush --version
+```
+global
+```
+/root/.config/composer/vendor/bin/drush --version
+```
 ### Drupal Nginx
 default
 ```nginx
