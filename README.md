@@ -73,8 +73,8 @@ Path
 ```vim
 # .bashrc
 # global drush path
-export PATH="$HOME/.config/composer/vendor/bin:$PATH"
-# export PATH="$HOME/.config/composer/vendor/drush/drush:$PATH"
+export PATH="$HOME/.config/composer/vendor/bin:$PATH" or
+export PATH="$HOME/.config/composer/vendor/drush/drush:$PATH"
 
 # reload .bashrc
 $source ~/.bashrc
