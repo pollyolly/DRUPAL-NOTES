@@ -17,11 +17,11 @@ Check available updates
 ```
 $composer outdated 'drupal/*'
 ```
-Update drupal core codes with dependencies
+Update drupal/core-recommended codes with dependencies
 ```
 $composer update drupal/core 'drupal/core-*' --with-all-dependencies 
 ```
-Update drupal core code only
+Update drupal/core code only
 ```
 $composer update drupal/core --with-all-dependencies 
 ```
