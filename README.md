@@ -45,8 +45,10 @@ $drush cache:rebuild
 ```
 https://drupal.iwebitechnology.xyz/update.php
 ```
-### Composer Install  Drupal Module
+### Composer Install  Drupal and Module
 ```vim
+$composer create-project drupal/recommended-project:11 directory_11_website
+
 $composer require drupal/admin_toolbar
 ```
 ### Drush Installation
