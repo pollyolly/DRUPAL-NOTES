@@ -8,6 +8,28 @@
 
 [Composer Download](https://getcomposer.org/download/)
 
+### Composer Drupal Update
+Show recommended updates 
+```
+$composer show drupal/core-recommended
+```
+Check available updates
+```
+$composer outdated 'drupal/*'
+```
+Update drupal core codes with dependencies
+```
+$composer update drupal/core 'drupal/core-*' --with-all-dependencies 
+```
+Update drupal core code only
+```
+$composer update drupal/core --with-all-dependencies 
+```
+Update database
+```
+$drush updatedb
+$drush cache:rebuild
+```
 ### Drush Install
 [Drush Install](https://www.drush.org/13.x/install/)
 
