@@ -31,7 +31,10 @@ $drush updatedb
 $drush cache:rebuild
 ```
 ### Drush Install
-[Drush Install](https://www.drush.org/13.x/install/)
+[Drush Install](https://www.drush.org/13.x/install/) or 
+```
+$composer require drush/drush
+```
 
 ### Drupal Nginx
 default
