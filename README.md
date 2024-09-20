@@ -49,7 +49,7 @@ https://drupal.iwebitechnology.xyz/update.php
 ```vim
 $composer create-project drupal/recommended-project:11 directory_11_website
 
-$composer require drupal/admin_toolbar
+$composer require 'drupal/module_name:version'
 ```
 ### Drush Installation
 [Drush Install](https://www.drush.org/13.x/install/) or 
