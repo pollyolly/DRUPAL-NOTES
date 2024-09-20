@@ -52,7 +52,7 @@ $composer create-project drupal/recommended-project:11 directory_11_website
 $composer require 'drupal/module_name:version'
 ```
 ### Drush Installation
-[Drush Install](https://www.drush.org/13.x/install/) or 
+[Drush Install](https://www.drush.org/13.x/install/) or [Install or Upgrade Drush](https://www.drupal.org/node/1248790) or
 ```vim
 # local
 $composer require drush/drush
