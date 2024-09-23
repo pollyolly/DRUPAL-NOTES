@@ -198,6 +198,11 @@ Admin Toolbar
 Media
 Media Library
 ```
+### Drupal Common Parts
+```
+Content Types
+Taxonomy -> Vocabulary -> Terms
+```
 ### Drupal Security
 ```
 ```
