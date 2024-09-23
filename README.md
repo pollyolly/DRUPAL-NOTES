@@ -192,6 +192,12 @@ server {
 
 }
 ```
+### Drupal Common Modules
+```
+Admin Toolbar
+Media
+Media Library
+```
 ### Drupal Security
 ```
 ```
