@@ -199,9 +199,19 @@ Media
 Media Library
 ```
 ### Drupal Common Parts
+Structure
 ```
-Content Types
-Taxonomy -> Vocabulary -> Terms
+Structure -> Block Types
+Structure -> Block Layout
+Structure -> Content Types
+Structure -> Taxonomy  -> Vocabulary -> Terms
+```
+Roles
+```
+Anonymous      - users not signed-in 
+Authenticated  - users signed-in
+Content Editor - create, edit, manage, publish content
+Administrator  - administrator
 ```
 ### Drupal Security
 ```
