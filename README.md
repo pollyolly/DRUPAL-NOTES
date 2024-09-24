@@ -210,6 +210,7 @@ Structure -> Block Types
 Structure -> Block Layout
 Structure -> Content Types
 Structure -> Taxonomy  -> Vocabulary -> Terms
+Structure -> Menus
 ```
 People
 ```
