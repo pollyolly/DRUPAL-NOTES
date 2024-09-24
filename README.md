@@ -235,6 +235,10 @@ Configuration
 ```
 Configuration -> People -> Account settings
 ```
+Image Responsiveness
+```
+Configuration -> Media -> Image styles
+```
 ### Drupal Security
 ```
 ```
