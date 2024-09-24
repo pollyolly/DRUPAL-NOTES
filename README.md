@@ -218,6 +218,7 @@ Structure -> Block Layout
 Structure -> Content Types
 Structure -> Taxonomy  -> Vocabulary -> Terms
 Structure -> Menus
+Structure -> Display mode -> View mode
 ```
 People
 ```
