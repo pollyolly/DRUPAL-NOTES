@@ -208,6 +208,9 @@ Structure -> Taxonomy  -> Vocabulary -> Terms
 ```
 Roles
 ```
+People -> Roles
+```
+```
 Anonymous      - users not signed-in 
 Authenticated  - users signed-in
 Content Editor - create, edit, manage, publish content
