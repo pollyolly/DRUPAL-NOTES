@@ -197,6 +197,7 @@ server {
 Admin Toolbar
 Media
 Media Library
+Pathauto
 ```
 ### Drupal Common Parts
 Content
