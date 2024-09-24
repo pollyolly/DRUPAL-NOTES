@@ -197,6 +197,8 @@ server {
 Admin Toolbar
 Media
 Media Library
+Layout Builder
+Layout Discovery
 ```
 Clean URL
 ```
