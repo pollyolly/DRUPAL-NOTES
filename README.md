@@ -216,6 +216,10 @@ Authenticated  - users signed-in
 Content Editor - create, edit, manage, publish content
 Administrator  - administrator
 ```
+Configuration
+```
+Configuration -> People -> Account settings
+```
 ### Drupal Security
 ```
 ```
