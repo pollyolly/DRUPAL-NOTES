@@ -206,10 +206,11 @@ Structure -> Block Layout
 Structure -> Content Types
 Structure -> Taxonomy  -> Vocabulary -> Terms
 ```
-Roles
+People
 ```
 People -> Roles
 ```
+Roles
 ```
 Anonymous      - users not signed-in 
 Authenticated  - users signed-in
