@@ -237,7 +237,7 @@ Configuration -> People -> Account settings
 ```
 Image Responsiveness
 ```
-Configuration -> Media -> Image styles
+Configuration -> Media -> Image styles: Scale and Crop 
 ```
 ### Drupal Security
 ```
