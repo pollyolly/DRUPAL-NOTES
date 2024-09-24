@@ -197,7 +197,11 @@ server {
 Admin Toolbar
 Media
 Media Library
-Pathauto
+```
+Clean URL
+```
+Pathauto (Configuration -> Search and metadata -> URL Aliases)
+Patterns: /waterfall/[node:title]
 ```
 ### Drupal Common Parts
 Content
