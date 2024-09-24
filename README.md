@@ -199,6 +199,11 @@ Media
 Media Library
 ```
 ### Drupal Common Parts
+Content
+```
+Content -> Content
+Content -> Block
+```
 Structure
 ```
 Structure -> Block Types
