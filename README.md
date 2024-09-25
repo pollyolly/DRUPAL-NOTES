@@ -239,12 +239,11 @@ Image Responsiveness
 ```
 Configuration -> Media -> Image styles: Scale and Crop 
 ```
-### Drupal Security
-```
-```
 ### Drupal Security Scanner
 [Droopescan](https://github.com/SamJoan/droopescan)
-### Drupal Patching
-[Patching in Drupal](https://youtu.be/dHnqYpqiTfs?si=KipA6pTB8JbOxz4R)
-### References
+### Troubleshooting
 [[preflight] Package "drupal/core" is not installed](https://www.drupal.org/forum/support/post-installation/2023-12-30/drush-preflight-package-drupalcore-is-not-installed)
+### Tutorial
+[Patching in Drupal](https://youtu.be/dHnqYpqiTfs?si=KipA6pTB8JbOxz4R)
+
+[Drupal Training - Site Building](https://youtu.be/rAR1QDAS7og?si=5o21m3s24DFCAtZs)
